@@ -23,7 +23,6 @@ Filename: `P<n>-YYYY-MM-DD-short-title.md` (priority prefix so `ls` sorts by imp
 ```markdown
 # Title
 Owner: <name>
-Priority: P1|P2|P3
 Context: links to code, files, commits
 Description: what is needed
 Acceptance:
@@ -31,6 +30,8 @@ Acceptance:
 Notes:
 - YYYY-MM-DD: Update entry
 ```
+
+Priority lives in the filename prefix only — no duplication inside the file.
 
 ## Operations
 

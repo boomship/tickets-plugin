@@ -18,7 +18,7 @@ tickets/issues/
 
 ## Ticket Format
 
-Filename: `YYYY-MM-DD-short-title.md`
+Filename: `P<n>-YYYY-MM-DD-short-title.md` (priority prefix so `ls` sorts by importance)
 
 ```markdown
 # Title
@@ -40,7 +40,7 @@ ls tickets/issues/open/
 ```
 
 ### Create a ticket
-Write a new file to `tickets/issues/open/YYYY-MM-DD-short-title.md` using the format above.
+Write a new file to `tickets/issues/open/P<n>-YYYY-MM-DD-short-title.md` using the format above.
 
 ### Move ticket state
 ```bash
